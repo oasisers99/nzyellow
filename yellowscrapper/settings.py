@@ -13,13 +13,13 @@ BOT_NAME = 'yellowscrapper'
 
 SPIDER_MODULES = ['yellowscrapper.spiders']
 NEWSPIDER_MODULE = 'yellowscrapper.spiders'
-REDIRECT_ENABLED = False
-HANDLE_HTTPSTATUS_LIST = True
+#REDIRECT_ENABLED = False
+#HANDLE_HTTPSTATUS_LIST = True
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 CONCURRENT_REQUESTS = 1
@@ -32,7 +32,7 @@ DOWNLOAD_DELAY = 5
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
 
-# REDIRECT_ENABLED = False
+REDIRECT_ENABLED = False
 
 # DEFAULT_REQUEST_HEADERS = {
 # 	#'GET': '/white-all/nail/new-zealand/1/ HTTP/1.1',
@@ -49,8 +49,8 @@ DOWNLOAD_DELAY = 5
 # }
 
 # Disable cookies (enabled by default)
-COOKIES_ENABLED = True
-COOKIES_DEBUG = True
+#COOKIES_ENABLED = True
+#COOKIES_DEBUG = True
 
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
